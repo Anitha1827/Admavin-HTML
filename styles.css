@@ -1,0 +1,239 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.navlist {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navlist,
+li {
+  padding: 10px 10px;
+}
+
+.active {
+  color: rgb(88, 88, 189);
+}
+.logo {
+  color: rgb(88, 88, 189);
+  text-transform: uppercase;
+}
+.btn {
+  background-color: rgb(88, 88, 189);
+  border: 1px solid rgb(88, 88, 189);
+  color: #ffffff;
+  padding: 10px;
+}
+.freetrail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.container {
+  background-color: aliceblue;
+}
+.freetrailcontent1 {
+  width: 100%;
+}
+.freetrailcontent1 h1 {
+  width: 60%;
+}
+
+.freetrailcontent1 p {
+  width: 60%;
+  margin: 50px 0px;
+  color: rgb(112, 112, 122);
+}
+.freetrailcontent1 button {
+  background-color: rgb(88, 88, 189);
+  border: 1px solid rgb(88, 88, 189);
+  color: white;
+  padding: 10px;
+}
+.freetrailcontent2 {
+  width: 80%;
+  height: 300px;
+  border: 1px solid rgb(88, 88, 189);
+  border-radius: 10px;
+}
+
+.freetrailcontent2 p {
+  border-bottom: 1px solid rgb(88, 88, 189);
+  padding: 5px;
+}
+.freetrailcontent2 p span {
+  margin-left: 10px;
+  border: 1px solid rgb(88, 88, 189);
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+}
+.product {
+  width: 100%;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.productcontent {
+  padding: 10px;
+  width: 100%;
+}
+.productcontent h1 {
+  color: rgb(88, 88, 189);
+}
+.productcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.getstart {
+  text-align: center;
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+.getstart button {
+  background-color: rgb(88, 88, 189);
+  border: 1px solid rgb(88, 88, 189);
+  color: white;
+  padding: 10px;
+  margin: 2%;
+}
+.footer {
+  background-color: black;
+  height: 50px;
+  color: white;
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
+.offer {
+  text-align: center;
+  padding: 10px;
+}
+.offercontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.offercontent p {
+  width: 90%;
+}
+.offercontent h1 {
+  color: rgb(88, 88, 189);
+}
+/* Mobile view */
+@media only screen and (max-width: 600px) {
+  .navlist,
+  li {
+    display: none;
+  }
+  .freetrail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+  }
+  .freetrailcontent1 {
+    padding: 20px;
+  }
+  .freetrailcontent1 h1 {
+    width: 100%;
+  }
+  .freetrailcontent1 p {
+    width: 100%;
+  }
+  .offercontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .productcontainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* page2 styling */
+.btnlog {
+  color: rgb(88, 88, 189);
+  border: none;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.onlineShoping {
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: aliceblue;
+}
+.onlineShoping h1 {
+  font-size: 38px;
+}
+.onlineShopingButton {
+  padding: 50px;
+}
+.onlineShopingButton button {
+  padding: 10px;
+}
+.learnmore {
+  margin-left: 20px;
+  border: solid 1px rgb(88, 88, 189);
+  color: rgb(88, 88, 189);
+}
+.Shoping {
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.ShippingContent {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+.ShippingContent button {
+  padding: 10px;
+  border: none;
+  color: rgb(88, 88, 189);
+  background-color: transparent;
+}
+@media only screen and (max-width: 600px) {
+  .ShippingContent {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+  }
+}
